@@ -1,0 +1,43 @@
+ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.article_block
+{
+  width: 700px;
+  padding: 50px;
+}
+
+.article_block__name
+{
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.menu_block
+{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
