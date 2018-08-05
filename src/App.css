@@ -1,0 +1,90 @@
+.example-enter{
+  opacity: 0.01;
+}
+
+
+.example-enter.example-enter-active{
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active{
+  opacity: 0.01;
+  transition:opacity 300ms ease-in;
+}
+
+ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App-header {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.article_block
+{
+  width: 700px;
+  padding: 50px;
+}
+
+.article_block__name
+{
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.menu_block
+{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.comments__form
+{
+  padding-top: 15px;
+}
+
+.error
+{
+  transition:1s;
+}
+
+.error:focus{
+  outline: red auto 5px;
+}
+
+.access
+{
+  transition:1s;
+}
+
+.access:focus{
+  outline: green auto 5px;
+}
+
+input
+{
+  outline: white auto 5px;
+}
