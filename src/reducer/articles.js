@@ -1,4 +1,4 @@
-import {DELETE_ARTICLE,SELECTOR} from '../constans'
+import {DELETE_ARTICLE} from '../constans'
 import {normalizedArticles as defaultArticles} from '../fixtures';
 
 export default (articleState = defaultArticles,action)=>{
